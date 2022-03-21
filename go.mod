@@ -9,6 +9,7 @@ require (
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/iavl v0.17.3
 	github.com/cosmos/ibc-go/v2 v2.0.3
+	github.com/goccy/go-json v0.9.5
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.8.0
@@ -126,8 +127,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
 )
-
-require github.com/goccy/go-json v0.9.5
 
 replace (
 	// branch: v0.24.0-osmo, current tag: v0.24.0-osmo-rc0
