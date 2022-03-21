@@ -127,6 +127,8 @@ require (
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
+require github.com/goccy/go-json v0.9.5
+
 replace (
 	// branch: v0.24.0-osmo, current tag: v0.24.0-osmo-rc0
 	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.24.0-osmo-rc0
