@@ -133,7 +133,7 @@ replace (
 	// branch: v0.24.0-osmo, current tag: v0.24.0-osmo-rc0
 	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.24.0-osmo-rc0
 	// Our cosmos-sdk branch is:  https://github.com/osmosis-labs/cosmos-sdk v0.45.0x-osmo-v7
-	github.com/cosmos/cosmos-sdk => github.com/osmosis-labs/cosmos-sdk v0.45.1-0.20220311195527-87988f9e28b1
+	github.com/cosmos/cosmos-sdk => github.com/osmosis-labs/cosmos-sdk v0.45.1-0.20220321203827-727d77008eac
 	// Use Osmosis fast iavl
 	github.com/cosmos/iavl => github.com/osmosis-labs/iavl v0.17.3-osmo-v5
 	// Use osmosis fork of ibc-go
