@@ -2,8 +2,9 @@ package balancer
 
 import (
 	"encoding/hex"
-	"encoding/json"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/require"

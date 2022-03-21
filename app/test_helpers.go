@@ -1,8 +1,9 @@
 package app
 
 import (
-	"encoding/json"
 	"os"
+
+	"github.com/goccy/go-json"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"

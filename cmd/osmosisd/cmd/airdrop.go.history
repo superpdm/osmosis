@@ -4,7 +4,7 @@ Preserved for historical purposes
 package cmd
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 	"fmt"
 	"io/ioutil"
 	"os"

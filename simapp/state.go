@@ -1,11 +1,12 @@
 package simapp
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"log"
 	"math/rand"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/osmosis-labs/osmosis/v7/app"
 

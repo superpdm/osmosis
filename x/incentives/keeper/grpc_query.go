@@ -2,7 +2,8 @@ package keeper
 
 import (
 	"context"
-	"encoding/json"
+
+	"github.com/goccy/go-json"
 
 	lockuptypes "github.com/osmosis-labs/osmosis/v7/x/lockup/types"
 

@@ -1,11 +1,12 @@
 package simapp
 
 import (
-	"encoding/json"
 	"fmt"
 	"math/rand"
 	"os"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdkSimapp "github.com/cosmos/cosmos-sdk/simapp"

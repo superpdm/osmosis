@@ -1,8 +1,8 @@
 package types
 
 import (
-	"encoding/json"
 	"errors"
+	"github.com/goccy/go-json"
 	"time"
 
 	"github.com/cosmos/cosmos-sdk/codec"

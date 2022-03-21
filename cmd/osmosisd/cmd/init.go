@@ -2,12 +2,13 @@ package cmd
 
 import (
 	"bufio"
-	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/cosmos/go-bip39"
 	"github.com/pkg/errors"

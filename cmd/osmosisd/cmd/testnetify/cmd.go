@@ -1,9 +1,10 @@
 package testnetify
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"os"
+
+	"github.com/goccy/go-json"
 
 	"github.com/osmosis-labs/osmosis/v7/app"
 	"github.com/spf13/cobra"

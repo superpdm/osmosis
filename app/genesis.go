@@ -1,7 +1,7 @@
 package app
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 
 	"github.com/CosmWasm/wasmd/x/wasm"
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"

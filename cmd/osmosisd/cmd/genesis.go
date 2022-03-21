@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"encoding/json"
 	"fmt"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/spf13/cobra"
 

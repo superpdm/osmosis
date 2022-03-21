@@ -1,9 +1,9 @@
 package types
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/goccy/go-json"
 	time "time"
 
 	"github.com/cosmos/cosmos-sdk/codec"

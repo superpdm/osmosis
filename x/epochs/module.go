@@ -2,8 +2,8 @@ package epochs
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
+	"github.com/goccy/go-json"
 	"math/rand"
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

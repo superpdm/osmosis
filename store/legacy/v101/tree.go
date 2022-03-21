@@ -2,8 +2,8 @@ package v101
 
 import (
 	"encoding/binary"
-	"encoding/json"
 	"fmt"
+	"github.com/goccy/go-json"
 
 	"github.com/gogo/protobuf/proto"
 

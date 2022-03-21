@@ -2,8 +2,8 @@ package lockup
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
+	"github.com/goccy/go-json"
 	"math/rand"
 
 	"github.com/cosmos/cosmos-sdk/client"

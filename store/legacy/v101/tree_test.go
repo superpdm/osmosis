@@ -2,8 +2,8 @@ package v101_test
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
+	"github.com/goccy/go-json"
 	"io/ioutil"
 	"testing"
 

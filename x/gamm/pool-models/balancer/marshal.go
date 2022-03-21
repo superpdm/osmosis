@@ -1,7 +1,7 @@
 package balancer
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
