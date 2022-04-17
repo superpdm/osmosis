@@ -208,6 +208,7 @@ sync-docs:
 
 PACKAGES_UNIT=$(shell go list ./... | grep -E -v 'simapp|e2e')
 PACKAGES_E2E=$(shell go list ./... | grep '/e2e')
+PACKAGES_UPGRADE=$(shell go list ./... | grep 'tests/upgrade')
 PACKAGES_SIM=$(shell go list ./... | grep '/simapp')
 TEST_PACKAGES=./...
 
@@ -231,6 +232,9 @@ test-sim:
 
 test-e2e:
 	@VERSION=$(VERSION) go test -mod=readonly -timeout=25m -v $(PACKAGES_E2E)
+
+test-upgrade:
+	@VERSION=$(VERSION) go test -mod=readonly -timeout=25m -v $(PACKAGES_UPGRADE)
 
 benchmark:
 	@go test -mod=readonly -bench=. $(PACKAGES_UNIT)
