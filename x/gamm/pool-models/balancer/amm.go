@@ -2,7 +2,6 @@ package balancer
 
 import (
 	"errors"
-
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
@@ -28,17 +27,19 @@ func solveConstantFunctionInvariant(
 	tokenWeightUnknown sdk.Dec,
 ) sdk.Dec {
 	return sdk.Dec{}
-	// weightRatio = (weightX/weightY)
-	weightRatio := tokenWeightFixed.Quo(tokenWeightUnknown)
+	/*
+		// weightRatio = (weightX/weightY)
+		weightRatio := tokenWeightFixed.Quo(tokenWeightUnknown)
 
-	// y = balanceXBefore/balanceXAfter
-	y := tokenBalanceFixedBefore.Quo(tokenBalanceFixedAfter)
+		// y = balanceXBefore/balanceXAfter
+		y := tokenBalanceFixedBefore.Quo(tokenBalanceFixedAfter)
 
-	// amountY = balanceY * (1 - (y ^ weightRatio))
-	yToWeightRatio := osmomath.Pow(y, weightRatio)
-	paranthetical := sdk.OneDec().Sub(yToWeightRatio)
-	amountY := tokenBalanceUnknownBefore.Mul(paranthetical)
-	return amountY
+		// amountY = balanceY * (1 - (y ^ weightRatio))
+		yToWeightRatio := osmomath.Pow(y, weightRatio)
+		paranthetical := sdk.OneDec().Sub(yToWeightRatio)
+		amountY := tokenBalanceUnknownBefore.Mul(paranthetical)
+		return amountY
+	*/
 }
 
 // CalcOutAmtGivenIn calculates tokens to be swapped out given the provided
