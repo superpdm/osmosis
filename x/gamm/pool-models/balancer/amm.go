@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/osmosis-labs/osmosis/v7/osmomath"
+	//"github.com/osmosis-labs/osmosis/v7/osmomath"
 	"github.com/osmosis-labs/osmosis/v7/x/gamm/types"
 )
 
@@ -27,6 +27,7 @@ func solveConstantFunctionInvariant(
 	tokenBalanceUnknownBefore,
 	tokenWeightUnknown sdk.Dec,
 ) sdk.Dec {
+	return sdk.Dec{}
 	// weightRatio = (weightX/weightY)
 	weightRatio := tokenWeightFixed.Quo(tokenWeightUnknown)
 
